@@ -1,0 +1,29 @@
+{
+    "award": [
+        {
+            "name": "Jackpot",
+            "quantity": 1,
+            "probability": 0.001
+        },
+        {
+            "name": "Second",
+            "quantity": 1,
+            "probability": 0.03
+        },
+        {
+            "name": "Third",
+            "quantity": 3,
+            "probability": 0.13
+        },
+        {
+            "name": "Fourth",
+            "quantity": 5,
+            "probability": 0.18
+        },
+        {
+            "name": "Fifth",
+            "quantity": 9,
+            "probability": 0.25
+        }
+    ]
+}
