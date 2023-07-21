@@ -5,7 +5,7 @@ import RxCocoa
 
 class ViewController: UIViewController {
     lazy var stackView = {
-        UIStackView(arrangedSubviews: [question1Btn, question2Btn, question6Btn])
+        UIStackView(arrangedSubviews: [question1Btn, question2Btn, question3Btn])
             .setAxis(.vertical)
             .setAlignment(.center)
             .setDistribution(.fillEqually)
@@ -21,9 +21,9 @@ class ViewController: UIViewController {
             .setTitle("Question2")
             .setTitleColor(.black)
     }()
-    lazy var question6Btn: UIButton = {
+    lazy var question3Btn: UIButton = {
         UIButton()
-            .setTitle("Question6")
+            .setTitle("Question3")
             .setTitleColor(.black)
     }()
 
@@ -67,9 +67,9 @@ class ViewController: UIViewController {
             })
             .disposed(by: disposeBag)
 
-        question6Btn.rx.tap
+        question3Btn.rx.tap
             .bind(onNext: { [unowned self] in
-                pushViewController(Question6ViewController())
+                pushViewController(Question3ViewController())
             })
             .disposed(by: disposeBag)
     }

@@ -3,7 +3,7 @@ import SnapKit
 import RxCocoa
 import RxSwift
 
-class Question6ViewController: UIViewController {
+class Question3ViewController: UIViewController {
     //MARK: UI Componets
     lazy var navigationView: UIView = {
         let view = UIView()
@@ -65,7 +65,7 @@ class Question6ViewController: UIViewController {
     }()
 
     internal var previousSelectedIndexPath: IndexPath?
-    let menuData = Question6VCType.allCases
+    let menuData = Question3VCType.allCases
 
     let disposeBag = DisposeBag()
 
@@ -141,7 +141,7 @@ class Question6ViewController: UIViewController {
             .disposed(by: disposeBag)
     }
 
-    func switchVC(type: Question6VCType) {
+    func switchVC(type: Question3VCType) {
         let vc: UIViewController
         switch type {
         case .UseInfo, .Recharge, .News, .Activity:

@@ -13,7 +13,7 @@ class OtherViewController: UIViewController {
 
     private var titleTxt = ""
     
-    convenience init(_ vcType: Question6VCType) {
+    convenience init(_ vcType: Question3VCType) {
         self.init()
         debugPrint(self.classForCoder, "init, type: \(vcType.rawValue)")
         titleTxt = vcType.rawValue

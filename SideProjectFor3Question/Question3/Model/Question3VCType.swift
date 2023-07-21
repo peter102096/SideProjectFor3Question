@@ -1,4 +1,4 @@
-enum Question6VCType: String, CaseIterable {
+enum Question3VCType: String, CaseIterable {
     case Home = "首頁"
     case UseInfo = "使用說明"
     case Recharge = "收費方式"

@@ -1,6 +1,6 @@
 import UIKit
 
-extension Question6ViewController: UITableViewDataSource {
+extension Question3ViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return menuData.count
@@ -19,7 +19,7 @@ extension Question6ViewController: UITableViewDataSource {
     }
 }
 
-extension Question6ViewController: UITableViewDelegate {
+extension Question3ViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if previousSelectedIndexPath != nil {
             let previousCell = tableView.cellForRow(at: previousSelectedIndexPath!)

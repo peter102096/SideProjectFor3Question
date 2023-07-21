@@ -24,7 +24,7 @@
 		D0319C6B2A681FAE008BDA9F /* Question2Model+remainingPrize.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0319C6A2A681FAE008BDA9F /* Question2Model+remainingPrize.swift */; };
 		D0319C792A68326B008BDA9F /* Question1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0319C782A68326B008BDA9F /* Question1ViewController.swift */; };
 		D0319C7B2A68327A008BDA9F /* Question2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0319C7A2A68327A008BDA9F /* Question2ViewController.swift */; };
-		D0319C7D2A683286008BDA9F /* Question6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0319C7C2A683286008BDA9F /* Question6ViewController.swift */; };
+		D0319C7D2A683286008BDA9F /* Question3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0319C7C2A683286008BDA9F /* Question3ViewController.swift */; };
 		D0319C802A68344E008BDA9F /* UIViewController+NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0319C7F2A68344E008BDA9F /* UIViewController+NavigationController.swift */; };
 		D0319C822A6836D7008BDA9F /* UIButton+Fluent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0319C812A6836D7008BDA9F /* UIButton+Fluent.swift */; };
 		D0319C862A683930008BDA9F /* UIStackView+Fluent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0319C852A683930008BDA9F /* UIStackView+Fluent.swift */; };
@@ -38,8 +38,8 @@
 		D0319C982A6926E2008BDA9F /* UIColor+Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0319C972A6926E2008BDA9F /* UIColor+Customer.swift */; };
 		D0319C9A2A69279C008BDA9F /* UIImage+Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0319C992A69279C008BDA9F /* UIImage+Customer.swift */; };
 		D0319C9C2A69296D008BDA9F /* UIImageView+Fluent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0319C9B2A69296D008BDA9F /* UIImageView+Fluent.swift */; };
-		D0319CA32A6933FE008BDA9F /* Question6VCType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0319CA22A6933FE008BDA9F /* Question6VCType.swift */; };
-		D0319CA62A693438008BDA9F /* Question6VC+UITableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0319CA52A693438008BDA9F /* Question6VC+UITableViewDataSource.swift */; };
+		D0319CA32A6933FE008BDA9F /* Question3VCType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0319CA22A6933FE008BDA9F /* Question3VCType.swift */; };
+		D0319CA62A693438008BDA9F /* Question3VC+UITableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0319CA52A693438008BDA9F /* Question3VC+UITableViewDataSource.swift */; };
 		D0319CA82A6938F5008BDA9F /* UITableView+Fluent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0319CA72A6938F5008BDA9F /* UITableView+Fluent.swift */; };
 		D0319CAD2A69889E008BDA9F /* SearchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0319CAC2A69889E008BDA9F /* SearchButton.swift */; };
 		D0319CAF2A69907D008BDA9F /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0319CAE2A69907D008BDA9F /* API.swift */; };
@@ -76,7 +76,7 @@
 		D0319C6A2A681FAE008BDA9F /* Question2Model+remainingPrize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Question2Model+remainingPrize.swift"; sourceTree = "<group>"; };
 		D0319C782A68326B008BDA9F /* Question1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question1ViewController.swift; sourceTree = "<group>"; };
 		D0319C7A2A68327A008BDA9F /* Question2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question2ViewController.swift; sourceTree = "<group>"; };
-		D0319C7C2A683286008BDA9F /* Question6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question6ViewController.swift; sourceTree = "<group>"; };
+		D0319C7C2A683286008BDA9F /* Question3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question3ViewController.swift; sourceTree = "<group>"; };
 		D0319C7F2A68344E008BDA9F /* UIViewController+NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+NavigationController.swift"; sourceTree = "<group>"; };
 		D0319C812A6836D7008BDA9F /* UIButton+Fluent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Fluent.swift"; sourceTree = "<group>"; };
 		D0319C852A683930008BDA9F /* UIStackView+Fluent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Fluent.swift"; sourceTree = "<group>"; };
@@ -90,8 +90,8 @@
 		D0319C972A6926E2008BDA9F /* UIColor+Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Customer.swift"; sourceTree = "<group>"; };
 		D0319C992A69279C008BDA9F /* UIImage+Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Customer.swift"; sourceTree = "<group>"; };
 		D0319C9B2A69296D008BDA9F /* UIImageView+Fluent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Fluent.swift"; sourceTree = "<group>"; };
-		D0319CA22A6933FE008BDA9F /* Question6VCType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question6VCType.swift; sourceTree = "<group>"; };
-		D0319CA52A693438008BDA9F /* Question6VC+UITableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Question6VC+UITableViewDataSource.swift"; sourceTree = "<group>"; };
+		D0319CA22A6933FE008BDA9F /* Question3VCType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question3VCType.swift; sourceTree = "<group>"; };
+		D0319CA52A693438008BDA9F /* Question3VC+UITableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Question3VC+UITableViewDataSource.swift"; sourceTree = "<group>"; };
 		D0319CA72A6938F5008BDA9F /* UITableView+Fluent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Fluent.swift"; sourceTree = "<group>"; };
 		D0319CAC2A69889E008BDA9F /* SearchButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchButton.swift; sourceTree = "<group>"; };
 		D0319CAE2A69907D008BDA9F /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
@@ -162,7 +162,7 @@
 				D0319C742A68320E008BDA9F /* Main */,
 				D0319C6C2A68275F008BDA9F /* Question1 */,
 				D0319C6D2A682767008BDA9F /* Question2 */,
-				D0319C6E2A682784008BDA9F /* Question6 */,
+				D0319C6E2A682784008BDA9F /* Question3 */,
 				D0319C562A67C8DA008BDA9F /* Resource */,
 			);
 			path = SideProjectFor3Question;
@@ -226,23 +226,23 @@
 			isa = PBXGroup;
 			children = (
 				D0319C762A68323D008BDA9F /* Controller */,
-				D0319C732A682844008BDA9F /* Model */,
 				D0319C4E2A67ADA4008BDA9F /* Extensions */,
 				D0319C612A67D2BC008BDA9F /* JsonResources */,
+				D0319C732A682844008BDA9F /* Model */,
 			);
 			path = Question2;
 			sourceTree = "<group>";
 		};
-		D0319C6E2A682784008BDA9F /* Question6 */ = {
+		D0319C6E2A682784008BDA9F /* Question3 */ = {
 			isa = PBXGroup;
 			children = (
+				D049111E2A6A4A7A00E8B25A /* BikeStation */,
 				D04911202A6A4A9E00E8B25A /* Controller */,
 				D0319CA42A693417008BDA9F /* Extensions */,
 				D0319C722A6827E6008BDA9F /* Model */,
 				D049111D2A6A4A7000E8B25A /* Other */,
-				D049111E2A6A4A7A00E8B25A /* BikeStation */,
 			);
-			path = Question6;
+			path = Question3;
 			sourceTree = "<group>";
 		};
 		D0319C702A6827AF008BDA9F /* Commons */ = {
@@ -269,8 +269,8 @@
 				D0319C8B2A684A00008BDA9F /* UITextField+Fluent.swift */,
 				D0319C872A684033008BDA9F /* UITextView+Fluent.swift */,
 				D0319C952A692547008BDA9F /* UIView+Fluent.swift */,
-				D0319C7F2A68344E008BDA9F /* UIViewController+NavigationController.swift */,
 				D04911272A6A61F700E8B25A /* UIView+RxAdditions.swift */,
+				D0319C7F2A68344E008BDA9F /* UIViewController+NavigationController.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -278,7 +278,7 @@
 		D0319C722A6827E6008BDA9F /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				D0319CA22A6933FE008BDA9F /* Question6VCType.swift */,
+				D0319CA22A6933FE008BDA9F /* Question3VCType.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -337,7 +337,7 @@
 		D0319CA42A693417008BDA9F /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				D0319CA52A693438008BDA9F /* Question6VC+UITableViewDataSource.swift */,
+				D0319CA52A693438008BDA9F /* Question3VC+UITableViewDataSource.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -345,11 +345,11 @@
 		D0319CAB2A698885008BDA9F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D04911252A6A4D6900E8B25A /* BikeStationDialogViewController.swift */,
 				D0319CB82A699731008BDA9F /* BikeTableViewCell.swift */,
 				D0319CB92A699731008BDA9F /* BikeTableViewCell.xib */,
 				D0319CAC2A69889E008BDA9F /* SearchButton.swift */,
 				D049111B2A69A14800E8B25A /* SectionHeaderView.swift */,
-				D04911252A6A4D6900E8B25A /* BikeStationDialogViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -384,7 +384,7 @@
 		D04911202A6A4A9E00E8B25A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				D0319C7C2A683286008BDA9F /* Question6ViewController.swift */,
+				D0319C7C2A683286008BDA9F /* Question3ViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -400,8 +400,8 @@
 		D04911222A6A4AC400E8B25A /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				D0319C8F2A691900008BDA9F /* YouBike2_0ResponseModel.swift */,
 				D0319CB42A699192008BDA9F /* StationModel.swift */,
+				D0319C8F2A691900008BDA9F /* YouBike2_0ResponseModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -540,7 +540,7 @@
 				D0319C942A692060008BDA9F /* OtherViewController.swift in Sources */,
 				D0319C982A6926E2008BDA9F /* UIColor+Customer.swift in Sources */,
 				D0319C9C2A69296D008BDA9F /* UIImageView+Fluent.swift in Sources */,
-				D0319CA62A693438008BDA9F /* Question6VC+UITableViewDataSource.swift in Sources */,
+				D0319CA62A693438008BDA9F /* Question3VC+UITableViewDataSource.swift in Sources */,
 				D0319C5A2A67CA29008BDA9F /* Question1Model.swift in Sources */,
 				D049111C2A69A14800E8B25A /* SectionHeaderView.swift in Sources */,
 				D0319C3B2A67ABC7008BDA9F /* AppDelegate.swift in Sources */,
@@ -551,12 +551,12 @@
 				D0319C962A692547008BDA9F /* UIView+Fluent.swift in Sources */,
 				D0319C672A67ECBB008BDA9F /* PrizeModel+PrizeItem.swift in Sources */,
 				D0319C9A2A69279C008BDA9F /* UIImage+Customer.swift in Sources */,
-				D0319CA32A6933FE008BDA9F /* Question6VCType.swift in Sources */,
+				D0319CA32A6933FE008BDA9F /* Question3VCType.swift in Sources */,
 				D0319C692A67ECD7008BDA9F /* PrizeItem.swift in Sources */,
 				D0319C902A691900008BDA9F /* YouBike2_0ResponseModel.swift in Sources */,
 				D0319C6B2A681FAE008BDA9F /* Question2Model+remainingPrize.swift in Sources */,
 				D0319C3D2A67ABC7008BDA9F /* SceneDelegate.swift in Sources */,
-				D0319C7D2A683286008BDA9F /* Question6ViewController.swift in Sources */,
+				D0319C7D2A683286008BDA9F /* Question3ViewController.swift in Sources */,
 				D0319C862A683930008BDA9F /* UIStackView+Fluent.swift in Sources */,
 				D04911282A6A61F700E8B25A /* UIView+RxAdditions.swift in Sources */,
 				D0319CAF2A69907D008BDA9F /* API.swift in Sources */,
