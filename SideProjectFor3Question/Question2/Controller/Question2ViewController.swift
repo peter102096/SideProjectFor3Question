@@ -67,7 +67,7 @@ class Question2ViewController: UIViewController {
     func getAnswer() {
         var answer = ""
         answer.append(measureExecutionTime {
-            answer.append("\(Question2Model().makeAnswer())\n")
+            answer.append("\(Question2ViewModel().makeAnswer())\n")
         })
         answerView.text = answer
     }

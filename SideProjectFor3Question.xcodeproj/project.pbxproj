@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		57E734C785631E286E502B99 /* Pods_SideProjectFor3Question.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06DDBEE7A79CB4349A6821A0 /* Pods_SideProjectFor3Question.framework */; };
+		D00A4F592A6D6B6100383370 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00A4F582A6D6B6100383370 /* ViewModelType.swift */; };
+		D00A4F5B2A6D6BBE00383370 /* ObserableType+Fluent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00A4F5A2A6D6BBE00383370 /* ObserableType+Fluent.swift */; };
+		D00A4F5D2A6D6BDE00383370 /* UIViewController+RxAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00A4F5C2A6D6BDE00383370 /* UIViewController+RxAdditions.swift */; };
 		D0319C3B2A67ABC7008BDA9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0319C3A2A67ABC7008BDA9F /* AppDelegate.swift */; };
 		D0319C3D2A67ABC7008BDA9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0319C3C2A67ABC7008BDA9F /* SceneDelegate.swift */; };
 		D0319C3F2A67ABC7008BDA9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0319C3E2A67ABC7008BDA9F /* ViewController.swift */; };
@@ -16,7 +19,7 @@
 		D0319C472A67ABC8008BDA9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0319C452A67ABC8008BDA9F /* LaunchScreen.storyboard */; };
 		D0319C522A67B9B7008BDA9F /* MeasureExecutionTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0319C512A67B9B7008BDA9F /* MeasureExecutionTime.swift */; };
 		D0319C5A2A67CA29008BDA9F /* Question1Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0319C592A67CA29008BDA9F /* Question1Model.swift */; };
-		D0319C5C2A67CA41008BDA9F /* Question2Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0319C5B2A67CA41008BDA9F /* Question2Model.swift */; };
+		D0319C5C2A67CA41008BDA9F /* Question2ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0319C5B2A67CA41008BDA9F /* Question2ViewModel.swift */; };
 		D0319C632A67D2E8008BDA9F /* AwardResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = D0319C622A67D2E8008BDA9F /* AwardResponse.json */; };
 		D0319C652A67D53E008BDA9F /* PrizeResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0319C642A67D53E008BDA9F /* PrizeResponseModel.swift */; };
 		D0319C672A67ECBB008BDA9F /* PrizeModel+PrizeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0319C662A67ECBB008BDA9F /* PrizeModel+PrizeItem.swift */; };
@@ -58,6 +61,9 @@
 		68D2F4D2923449F458FCF91A /* Pods-TurtleInterview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurtleInterview.debug.xcconfig"; path = "Target Support Files/Pods-TurtleInterview/Pods-TurtleInterview.debug.xcconfig"; sourceTree = "<group>"; };
 		B1EBB0B2BE4EDA26E3E3C6A0 /* Pods-SideProjectFor3Question.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideProjectFor3Question.debug.xcconfig"; path = "Target Support Files/Pods-SideProjectFor3Question/Pods-SideProjectFor3Question.debug.xcconfig"; sourceTree = "<group>"; };
 		C7CEAF5818648A907526D64F /* Pods-SideProjectFor3Question.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideProjectFor3Question.release.xcconfig"; path = "Target Support Files/Pods-SideProjectFor3Question/Pods-SideProjectFor3Question.release.xcconfig"; sourceTree = "<group>"; };
+		D00A4F582A6D6B6100383370 /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
+		D00A4F5A2A6D6BBE00383370 /* ObserableType+Fluent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObserableType+Fluent.swift"; sourceTree = "<group>"; };
+		D00A4F5C2A6D6BDE00383370 /* UIViewController+RxAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+RxAdditions.swift"; sourceTree = "<group>"; };
 		D0319C372A67ABC7008BDA9F /* SideProjectFor3Question.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideProjectFor3Question.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0319C3A2A67ABC7008BDA9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0319C3C2A67ABC7008BDA9F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,7 +74,7 @@
 		D0319C482A67ABC8008BDA9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0319C512A67B9B7008BDA9F /* MeasureExecutionTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureExecutionTime.swift; sourceTree = "<group>"; };
 		D0319C592A67CA29008BDA9F /* Question1Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question1Model.swift; sourceTree = "<group>"; };
-		D0319C5B2A67CA41008BDA9F /* Question2Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question2Model.swift; sourceTree = "<group>"; };
+		D0319C5B2A67CA41008BDA9F /* Question2ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question2ViewModel.swift; sourceTree = "<group>"; };
 		D0319C622A67D2E8008BDA9F /* AwardResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AwardResponse.json; sourceTree = "<group>"; };
 		D0319C642A67D53E008BDA9F /* PrizeResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrizeResponseModel.swift; sourceTree = "<group>"; };
 		D0319C662A67ECBB008BDA9F /* PrizeModel+PrizeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PrizeModel+PrizeItem.swift"; sourceTree = "<group>"; };
@@ -251,6 +257,7 @@
 				D0319CAE2A69907D008BDA9F /* API.swift */,
 				D0319C712A6827B7008BDA9F /* Extensions */,
 				D0319CB02A6990E3008BDA9F /* ResultModel.swift */,
+				D00A4F582A6D6B6100383370 /* ViewModelType.swift */,
 			);
 			path = Commons;
 			sourceTree = "<group>";
@@ -259,6 +266,7 @@
 			isa = PBXGroup;
 			children = (
 				D0319C512A67B9B7008BDA9F /* MeasureExecutionTime.swift */,
+				D00A4F5A2A6D6BBE00383370 /* ObserableType+Fluent.swift */,
 				D0319C812A6836D7008BDA9F /* UIButton+Fluent.swift */,
 				D0319C972A6926E2008BDA9F /* UIColor+Customer.swift */,
 				D0319C992A69279C008BDA9F /* UIImage+Customer.swift */,
@@ -271,6 +279,7 @@
 				D0319C952A692547008BDA9F /* UIView+Fluent.swift */,
 				D04911272A6A61F700E8B25A /* UIView+RxAdditions.swift */,
 				D0319C7F2A68344E008BDA9F /* UIViewController+NavigationController.swift */,
+				D00A4F5C2A6D6BDE00383370 /* UIViewController+RxAdditions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -288,7 +297,7 @@
 			children = (
 				D0319C682A67ECD7008BDA9F /* PrizeItem.swift */,
 				D0319C642A67D53E008BDA9F /* PrizeResponseModel.swift */,
-				D0319C5B2A67CA41008BDA9F /* Question2Model.swift */,
+				D0319C5B2A67CA41008BDA9F /* Question2ViewModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -538,6 +547,7 @@
 				D0319C882A684033008BDA9F /* UITextView+Fluent.swift in Sources */,
 				D0319C7B2A68327A008BDA9F /* Question2ViewController.swift in Sources */,
 				D0319C942A692060008BDA9F /* OtherViewController.swift in Sources */,
+				D00A4F5B2A6D6BBE00383370 /* ObserableType+Fluent.swift in Sources */,
 				D0319C982A6926E2008BDA9F /* UIColor+Customer.swift in Sources */,
 				D0319C9C2A69296D008BDA9F /* UIImageView+Fluent.swift in Sources */,
 				D0319CA62A693438008BDA9F /* Question3VC+UITableViewDataSource.swift in Sources */,
@@ -545,7 +555,7 @@
 				D049111C2A69A14800E8B25A /* SectionHeaderView.swift in Sources */,
 				D0319C3B2A67ABC7008BDA9F /* AppDelegate.swift in Sources */,
 				D0319C802A68344E008BDA9F /* UIViewController+NavigationController.swift in Sources */,
-				D0319C5C2A67CA41008BDA9F /* Question2Model.swift in Sources */,
+				D0319C5C2A67CA41008BDA9F /* Question2ViewModel.swift in Sources */,
 				D0319CB52A699192008BDA9F /* StationModel.swift in Sources */,
 				D04911262A6A4D6900E8B25A /* BikeStationDialogViewController.swift in Sources */,
 				D0319C962A692547008BDA9F /* UIView+Fluent.swift in Sources */,
@@ -557,10 +567,12 @@
 				D0319C6B2A681FAE008BDA9F /* Question2Model+remainingPrize.swift in Sources */,
 				D0319C3D2A67ABC7008BDA9F /* SceneDelegate.swift in Sources */,
 				D0319C7D2A683286008BDA9F /* Question3ViewController.swift in Sources */,
+				D00A4F5D2A6D6BDE00383370 /* UIViewController+RxAdditions.swift in Sources */,
 				D0319C862A683930008BDA9F /* UIStackView+Fluent.swift in Sources */,
 				D04911282A6A61F700E8B25A /* UIView+RxAdditions.swift in Sources */,
 				D0319CAF2A69907D008BDA9F /* API.swift in Sources */,
 				D0319CA82A6938F5008BDA9F /* UITableView+Fluent.swift in Sources */,
+				D00A4F592A6D6B6100383370 /* ViewModelType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

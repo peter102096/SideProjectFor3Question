@@ -1,4 +1,4 @@
-extension Question2Model {
+extension Question2ViewModel {
     var remainingPrize: String {
         var description = ""
         for (index, item) in prizeResponseModel.prize.enumerated() {
